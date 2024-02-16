@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6782467F2B7FB3E200967288 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6782467E2B7FB3E200967288 /* AppDelegate.swift */; };
+		678246812B7FB3E200967288 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678246802B7FB3E200967288 /* SceneDelegate.swift */; };
+		678246832B7FB3E200967288 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678246822B7FB3E200967288 /* ViewController.swift */; };
+		678246862B7FB3E200967288 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 678246842B7FB3E200967288 /* Main.storyboard */; };
+		678246882B7FB3E400967288 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 678246872B7FB3E400967288 /* Assets.xcassets */; };
+		6782468B2B7FB3E400967288 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 678246892B7FB3E400967288 /* LaunchScreen.storyboard */; };
+		678246962B7FB3E400967288 /* ValentinesAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678246952B7FB3E400967288 /* ValentinesAppTests.swift */; };
+		678246A02B7FB3E400967288 /* ValentinesAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6782469F2B7FB3E400967288 /* ValentinesAppUITests.swift */; };
+		678246A22B7FB3E400967288 /* ValentinesAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678246A12B7FB3E400967288 /* ValentinesAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		678246922B7FB3E400967288 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 678246732B7FB3E200967288 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6782467A2B7FB3E200967288;
+			remoteInfo = ValentinesApp;
+		};
+		6782469C2B7FB3E400967288 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 678246732B7FB3E200967288 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6782467A2B7FB3E200967288;
+			remoteInfo = ValentinesApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6782467B2B7FB3E200967288 /* ValentinesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValentinesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6782467E2B7FB3E200967288 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		678246802B7FB3E200967288 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		678246822B7FB3E200967288 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		678246852B7FB3E200967288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		678246872B7FB3E400967288 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6782468A2B7FB3E400967288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6782468C2B7FB3E400967288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		678246912B7FB3E400967288 /* ValentinesAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValentinesAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		678246952B7FB3E400967288 /* ValentinesAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValentinesAppTests.swift; sourceTree = "<group>"; };
+		6782469B2B7FB3E400967288 /* ValentinesAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValentinesAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6782469F2B7FB3E400967288 /* ValentinesAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValentinesAppUITests.swift; sourceTree = "<group>"; };
+		678246A12B7FB3E400967288 /* ValentinesAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValentinesAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		678246782B7FB3E200967288 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6782468E2B7FB3E400967288 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678246982B7FB3E400967288 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		678246722B7FB3E200967288 = {
+			isa = PBXGroup;
+			children = (
+				6782467D2B7FB3E200967288 /* ValentinesApp */,
+				678246942B7FB3E400967288 /* ValentinesAppTests */,
+				6782469E2B7FB3E400967288 /* ValentinesAppUITests */,
+				6782467C2B7FB3E200967288 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6782467C2B7FB3E200967288 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6782467B2B7FB3E200967288 /* ValentinesApp.app */,
+				678246912B7FB3E400967288 /* ValentinesAppTests.xctest */,
+				6782469B2B7FB3E400967288 /* ValentinesAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6782467D2B7FB3E200967288 /* ValentinesApp */ = {
+			isa = PBXGroup;
+			children = (
+				6782467E2B7FB3E200967288 /* AppDelegate.swift */,
+				678246802B7FB3E200967288 /* SceneDelegate.swift */,
+				678246822B7FB3E200967288 /* ViewController.swift */,
+				678246842B7FB3E200967288 /* Main.storyboard */,
+				678246872B7FB3E400967288 /* Assets.xcassets */,
+				678246892B7FB3E400967288 /* LaunchScreen.storyboard */,
+				6782468C2B7FB3E400967288 /* Info.plist */,
+			);
+			path = ValentinesApp;
+			sourceTree = "<group>";
+		};
+		678246942B7FB3E400967288 /* ValentinesAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				678246952B7FB3E400967288 /* ValentinesAppTests.swift */,
+			);
+			path = ValentinesAppTests;
+			sourceTree = "<group>";
+		};
+		6782469E2B7FB3E400967288 /* ValentinesAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6782469F2B7FB3E400967288 /* ValentinesAppUITests.swift */,
+				678246A12B7FB3E400967288 /* ValentinesAppUITestsLaunchTests.swift */,
+			);
+			path = ValentinesAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6782467A2B7FB3E200967288 /* ValentinesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 678246A52B7FB3E400967288 /* Build configuration list for PBXNativeTarget "ValentinesApp" */;
+			buildPhases = (
+				678246772B7FB3E200967288 /* Sources */,
+				678246782B7FB3E200967288 /* Frameworks */,
+				678246792B7FB3E200967288 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ValentinesApp;
+			productName = ValentinesApp;
+			productReference = 6782467B2B7FB3E200967288 /* ValentinesApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		678246902B7FB3E400967288 /* ValentinesAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 678246A82B7FB3E400967288 /* Build configuration list for PBXNativeTarget "ValentinesAppTests" */;
+			buildPhases = (
+				6782468D2B7FB3E400967288 /* Sources */,
+				6782468E2B7FB3E400967288 /* Frameworks */,
+				6782468F2B7FB3E400967288 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				678246932B7FB3E400967288 /* PBXTargetDependency */,
+			);
+			name = ValentinesAppTests;
+			productName = ValentinesAppTests;
+			productReference = 678246912B7FB3E400967288 /* ValentinesAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6782469A2B7FB3E400967288 /* ValentinesAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 678246AB2B7FB3E400967288 /* Build configuration list for PBXNativeTarget "ValentinesAppUITests" */;
+			buildPhases = (
+				678246972B7FB3E400967288 /* Sources */,
+				678246982B7FB3E400967288 /* Frameworks */,
+				678246992B7FB3E400967288 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6782469D2B7FB3E400967288 /* PBXTargetDependency */,
+			);
+			name = ValentinesAppUITests;
+			productName = ValentinesAppUITests;
+			productReference = 6782469B2B7FB3E400967288 /* ValentinesAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		678246732B7FB3E200967288 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					6782467A2B7FB3E200967288 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					678246902B7FB3E400967288 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 6782467A2B7FB3E200967288;
+					};
+					6782469A2B7FB3E400967288 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 6782467A2B7FB3E200967288;
+					};
+				};
+			};
+			buildConfigurationList = 678246762B7FB3E200967288 /* Build configuration list for PBXProject "ValentinesApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 678246722B7FB3E200967288;
+			productRefGroup = 6782467C2B7FB3E200967288 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6782467A2B7FB3E200967288 /* ValentinesApp */,
+				678246902B7FB3E400967288 /* ValentinesAppTests */,
+				6782469A2B7FB3E400967288 /* ValentinesAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		678246792B7FB3E200967288 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6782468B2B7FB3E400967288 /* LaunchScreen.storyboard in Resources */,
+				678246882B7FB3E400967288 /* Assets.xcassets in Resources */,
+				678246862B7FB3E200967288 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6782468F2B7FB3E400967288 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678246992B7FB3E400967288 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		678246772B7FB3E200967288 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678246832B7FB3E200967288 /* ViewController.swift in Sources */,
+				6782467F2B7FB3E200967288 /* AppDelegate.swift in Sources */,
+				678246812B7FB3E200967288 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6782468D2B7FB3E400967288 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678246962B7FB3E400967288 /* ValentinesAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678246972B7FB3E400967288 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678246A02B7FB3E400967288 /* ValentinesAppUITests.swift in Sources */,
+				678246A22B7FB3E400967288 /* ValentinesAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		678246932B7FB3E400967288 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6782467A2B7FB3E200967288 /* ValentinesApp */;
+			targetProxy = 678246922B7FB3E400967288 /* PBXContainerItemProxy */;
+		};
+		6782469D2B7FB3E400967288 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6782467A2B7FB3E200967288 /* ValentinesApp */;
+			targetProxy = 6782469C2B7FB3E400967288 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		678246842B7FB3E200967288 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				678246852B7FB3E200967288 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		678246892B7FB3E400967288 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6782468A2B7FB3E400967288 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		678246A32B7FB3E400967288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		678246A42B7FB3E400967288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		678246A62B7FB3E400967288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RLFAH93YB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ValentinesApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ValentinesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		678246A72B7FB3E400967288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RLFAH93YB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ValentinesApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ValentinesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		678246A92B7FB3E400967288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RLFAH93YB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ValentinesAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ValentinesApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ValentinesApp";
+			};
+			name = Debug;
+		};
+		678246AA2B7FB3E400967288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RLFAH93YB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ValentinesAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ValentinesApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ValentinesApp";
+			};
+			name = Release;
+		};
+		678246AC2B7FB3E400967288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RLFAH93YB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ValentinesAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ValentinesApp;
+			};
+			name = Debug;
+		};
+		678246AD2B7FB3E400967288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RLFAH93YB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ValentinesAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ValentinesApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		678246762B7FB3E200967288 /* Build configuration list for PBXProject "ValentinesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678246A32B7FB3E400967288 /* Debug */,
+				678246A42B7FB3E400967288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		678246A52B7FB3E400967288 /* Build configuration list for PBXNativeTarget "ValentinesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678246A62B7FB3E400967288 /* Debug */,
+				678246A72B7FB3E400967288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		678246A82B7FB3E400967288 /* Build configuration list for PBXNativeTarget "ValentinesAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678246A92B7FB3E400967288 /* Debug */,
+				678246AA2B7FB3E400967288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		678246AB2B7FB3E400967288 /* Build configuration list for PBXNativeTarget "ValentinesAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678246AC2B7FB3E400967288 /* Debug */,
+				678246AD2B7FB3E400967288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 678246732B7FB3E200967288 /* Project object */;
+}
